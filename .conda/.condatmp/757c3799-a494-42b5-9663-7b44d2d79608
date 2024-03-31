@@ -1,0 +1,13 @@
+prefix=e:/GENAI/Quantised Models/Llama2_on_CPU/.conda/Library
+exec_prefix=e:/GENAI/Quantised Models/Llama2_on_CPU/.conda/Library
+libdir=e:/GENAI/Quantised Models/Llama2_on_CPU/.conda/Library/lib
+sharedlibdir=e:/GENAI/Quantised Models/Llama2_on_CPU/.conda/Library/lib
+includedir=e:/GENAI/Quantised Models/Llama2_on_CPU/.conda/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
